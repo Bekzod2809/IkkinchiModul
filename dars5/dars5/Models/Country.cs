@@ -1,6 +1,6 @@
 ﻿namespace dars5.Models;
 
-internal class Country
+public class Country
 {
     public Guid CountryId { get; set; }
     public string Name { get; set; }

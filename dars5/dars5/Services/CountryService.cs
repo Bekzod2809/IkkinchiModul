@@ -2,7 +2,7 @@
 
 namespace dars5.Services;
 
-internal class CountryService : ICountryService
+public class CountryService : ICountryService
 {
     List<Country> Countries;
     public CountryService()

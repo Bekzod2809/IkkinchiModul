@@ -2,7 +2,7 @@
 
 namespace dars5.Services;
 
-internal class BoardService : IBoardService
+public class BoardService : IBoardService
 {
     List<Board> Boards;
     public BoardService()

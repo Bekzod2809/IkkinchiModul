@@ -2,7 +2,7 @@
 
 namespace dars5.Services;
 
-internal interface ISingerService
+public interface ISingerService
 {
     public Guid AddSinger(Singer singer);
     public bool UpdateSinger(Singer singer);

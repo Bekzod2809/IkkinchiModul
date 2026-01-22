@@ -2,7 +2,7 @@
 
 namespace dars5.Services
 {
-    internal interface IAirLineService
+    public interface IAirLineService
     {
         public Guid AddAirLine(AirLine airLine);
         public bool UpdateAirLine(AirLine airLine);

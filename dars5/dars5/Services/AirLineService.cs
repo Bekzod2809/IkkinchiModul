@@ -2,7 +2,7 @@
 
 namespace dars5.Services;
 
-internal class AirLineService : IAirLineService
+public class AirLineService : IAirLineService
 {
     List<AirLine> AirLines;
     public AirLineService()

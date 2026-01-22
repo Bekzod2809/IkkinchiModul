@@ -1,6 +1,6 @@
 ﻿namespace dars5.Models;
 
-internal class AirLine
+public class AirLine
 {
     public Guid AirLineId { get; set; }
     public string Name { get; set; }

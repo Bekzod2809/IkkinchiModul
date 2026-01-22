@@ -2,7 +2,7 @@
 
 namespace dars5.Services;
 
-internal interface ICountryService
+public interface ICountryService
 {
     public Guid AddCountry(Country Country);
     public bool UpdateCountry(Country Country);

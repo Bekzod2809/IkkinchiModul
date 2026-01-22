@@ -2,7 +2,7 @@
 
 namespace dars5.Services;
 
-internal class SingerService : ISingerService
+public class SingerService : ISingerService
 {
     List<Singer> Singers;
     public SingerService()
