@@ -1,6 +1,6 @@
 ﻿namespace dars8.Service;
 
-internal class AccountService : INotification
+public class AccountService : INotification
 {
     public void SendNotification()
     {
